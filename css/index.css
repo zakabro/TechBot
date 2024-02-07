@@ -1,0 +1,114 @@
+.btn-start {
+  color: #000000;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-start:hover {
+  color: #0099ff;
+}
+
+.resume-section section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.resume-section2 section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.image-container img {
+  margin-right: 20px; /* Espacio entre la imagen y el texto a la derecha */
+  border-radius: 5%;
+}
+
+.image-container2 img {
+  margin-right: 20px;
+  border-radius: 5%;
+  /* Espacio entre la imagen y el texto a la derecha */
+}
+
+.text-content,
+.text-content p,
+.text-content2,
+.text-content2 p {
+  color: black;
+  flex: 1; /* Haz que el texto ocupe todo el espacio disponible */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+.nav-links li {
+  margin-right: 20px; /* Espacio entre los enlaces */
+}
+.nav-links li a {
+  color: #000000;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s; /* Transición suave para el cambio de color y transformación */
+}
+
+/* Estilos para el efecto hover */
+.nav-links li a:hover {
+  color: #fffb00; /* Color al pasar el cursor */
+}
+
+.header {
+  color: #ffffff;
+  text-align: center;
+  padding: 100px;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+.resume-section h2,
+.resume-section2 h2 {
+  color: #000000;
+  font-size: 24px;
+}
+
+.resume-section p,
+.resume-section2 p {
+  font-size: 16px;
+}
+
+.button {
+  background-color: #0073e6;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0051a1;
+}
+/*ajuste de pantalla*/
+
+/*celulares y tables pequeñas*/
+@media screen and (max-width: 400px) {
+  footer {
+    width: 100%;
+  }
+}
+/*pc y tables grandes*/
+@media screen and (min-width: 500px) {
+  footer {
+    width: 100%;
+  }
+}
